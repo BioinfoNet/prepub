@@ -1,4 +1,4 @@
-##This is the production code for www.prepubmed.org.
+## This is the production code for www.prepubmed.org.
 An article discussing how PrePubMed works is available at http://www.omnesres.com/research/prepubmed/.
 
 PrePubMed runs on Django 1.8, and update.py needs BeautifulSoup and requests.
@@ -15,7 +15,7 @@ Each preprint server has its own folder.  In each folder is code for the initial
 
 If you want to get this running locally you'll need to change the settings file, namely the host settings.  GitHub doesn't want the sqlite3 database in the repository so you will have to generate the database by making migrations and running "final_populate.py".  This could take time.  If you want it to go faster only make the database for a fraction of the articles.
 
-###This is the current to do list:
+### This is the current to do list:
 
 Improve indexing code (I'll do this)
 
